@@ -170,4 +170,6 @@ if uploaded_file:
     else:
         st.warning("対象が検出されませんでした。パラメータを調整してください。")
 else:
+
     st.info("💡 画像をアップロードすると解析を開始します。")
+    pass # import japanize_matplotlib を無効化
