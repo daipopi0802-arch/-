@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
 import math
-import japanize_matplotlib # グラフの日本語化
+pass # import japanize_matplotlib を無効化
+
 
 # --- 1. ページ構成とデザイン設定 ---
 st.set_page_config(page_title="材力解析システム Pro Max", layout="wide")
@@ -172,4 +173,5 @@ if uploaded_file:
 else:
 
     st.info("💡 画像をアップロードすると解析を開始します。")
-    pass # import japanize_matplotlib を無効化
+  
+
